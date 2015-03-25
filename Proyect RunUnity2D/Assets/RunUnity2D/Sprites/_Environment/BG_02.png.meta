@@ -1,5 +1,8 @@
 fileFormatVersion: 2
 guid: 37af89288d730e147b3732c66db90d34
+labels:
+- Sprite
+- Environment
 TextureImporter:
   fileIDToRecycleName: {}
   serializedVersion: 2

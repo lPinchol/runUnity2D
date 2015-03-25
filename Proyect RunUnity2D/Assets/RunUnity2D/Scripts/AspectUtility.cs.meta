@@ -1,5 +1,7 @@
 fileFormatVersion: 2
 guid: 43632aa1fc784cf46a60114b95859f20
+labels:
+- Script
 timeCreated: 1427306213
 licenseType: Pro
 MonoImporter:

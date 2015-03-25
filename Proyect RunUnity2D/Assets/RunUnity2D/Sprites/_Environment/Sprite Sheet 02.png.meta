@@ -1,7 +1,16 @@
 fileFormatVersion: 2
 guid: cfed6b382bbfe5a40bbb4720234bc13b
+labels:
+- Sprite
+- Environment
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Sprite Sheet 02_0
+    21300002: Sprite Sheet 02_1
+    21300004: Sprite Sheet 02_2
+    21300006: Sprite Sheet 02_3
+    21300008: Sprite Sheet 02_4
+    21300010: Sprite Sheet 02_5
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0

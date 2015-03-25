@@ -1,9 +1,7 @@
 fileFormatVersion: 2
-guid: b80a23632b80cac4eb40e9bd0e65b982
-labels:
-- Scene
-- Android
-timeCreated: 1427306346
+guid: 24ff528785e445243ae2f44bcc311b7c
+folderAsset: yes
+timeCreated: 1427308240
 licenseType: Pro
 DefaultImporter:
   userData: 

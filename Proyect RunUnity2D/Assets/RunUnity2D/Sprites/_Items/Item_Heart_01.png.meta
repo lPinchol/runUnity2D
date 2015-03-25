@@ -1,5 +1,8 @@
 fileFormatVersion: 2
 guid: e3781136f85954e14b8de36fc12d45ac
+labels:
+- Sprite
+- Items
 TextureImporter:
   fileIDToRecycleName:
     21300000: Item_Heart_01

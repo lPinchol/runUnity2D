@@ -1,5 +1,8 @@
 fileFormatVersion: 2
 guid: 8ccdfb0653c0a3a4aa22ebc619659600
+labels:
+- Scene
+- Android
 timeCreated: 1427306609
 licenseType: Pro
 DefaultImporter:

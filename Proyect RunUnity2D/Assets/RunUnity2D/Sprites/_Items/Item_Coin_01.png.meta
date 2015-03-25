@@ -1,5 +1,8 @@
 fileFormatVersion: 2
 guid: 5e210f133eadc41418be6b4390a47547
+labels:
+- Sprite
+- Items
 TextureImporter:
   fileIDToRecycleName:
     21300000: Item_Coin_01
