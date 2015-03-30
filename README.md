@@ -9,7 +9,7 @@ Un pequeño juego usando las heramientas 2D de Unity en la version 5.0.0
 1. [Visual Studio Tools](https://visualstudiogallery.msdn.microsoft.com/20b80b8c-659b-45ef-96c1-437828fe7cf2)
 2. [Unity3D](http://unity3d.com/get-unity/download?ref=personal)
 
-##A Saber
+##Sinopsis
 
 Este videojuego esta echo para Unity 5.0.0f4 y no se ha probado en versiones anteriores.
 
@@ -18,7 +18,6 @@ Este videojuego esta echo para Unity 5.0.0f4 y no se ha probado en versiones ant
 > Actuales
 > 
 > - Clasico Run para Android / PC.
-> - Logros y marcadores de Google Play.
 > - HighRecord interno.
 
 ## Licencias
