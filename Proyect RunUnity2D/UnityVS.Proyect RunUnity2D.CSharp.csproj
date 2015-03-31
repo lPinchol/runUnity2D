@@ -59,6 +59,7 @@
   <ItemGroup>
     <Compile Include="Assets\RunUnity2D\Scripts\AspectUtility.cs" />
     <Compile Include="Assets\RunUnity2D\Scripts\Camera2D.cs" />
+    <Compile Include="Assets\RunUnity2D\Scripts\Generator.cs" />
     <Compile Include="Assets\RunUnity2D\Scripts\ManagerCharacter.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />

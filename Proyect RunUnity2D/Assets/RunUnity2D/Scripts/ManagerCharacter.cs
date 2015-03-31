@@ -12,11 +12,11 @@ public class ManagerCharacter : MonoBehaviour
     public float speed = 1.0f;                      // Speed character
 
     // Var privates
-    public float checkRatio = 0.1f;                // Ratio Ground
-    public bool inGrounded = true;                 // Aux character Grounded
-    public bool doubleJump = false;                // Aux character Two Jump
-    public Animator animator;                      // Animator character
-    public bool Runing = false;                    // Aux character runing
+    private float checkRatio = 0.1f;                // Ratio Ground
+    private bool inGrounded = true;                 // Aux character Grounded
+    private bool doubleJump = false;                // Aux character Two Jump
+    private Animator animator;                      // Animator character
+    private bool Runing = false;                    // Aux character runing
 
     /// <summary>
     /// Initialize var
