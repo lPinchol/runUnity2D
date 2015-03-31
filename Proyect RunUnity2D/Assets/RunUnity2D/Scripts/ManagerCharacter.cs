@@ -5,16 +5,18 @@ using System.Collections;
 public class ManagerCharacter : MonoBehaviour
 {
     // Var public
-    public float forceJump = 100.0f;                // Force to jump character
+    public float forceJump = 11.0f;                 // Force to jump character
     public GameObject characterRigi;                // Prefab Character  
     public Transform checkGround;                   // Check Ground  
     public LayerMask maskGround;                    // Mask Ground
+    public float speed = 1.0f;                      // Speed character
 
     // Var privates
-    private float checkRatio = 0.1f;                // Ratio Ground
-    private bool inGrounded = true;                 // Aux character Grounded
-    private bool doubleJump = false;                // Aux character Two Jump
-    private Animator animator;                      // Animator character
+    public float checkRatio = 0.1f;                // Ratio Ground
+    public bool inGrounded = true;                 // Aux character Grounded
+    public bool doubleJump = false;                // Aux character Two Jump
+    public Animator animator;                      // Animator character
+    public bool Runing = false;                    // Aux character runing
 
     /// <summary>
     /// Initialize var
@@ -38,6 +40,11 @@ public class ManagerCharacter : MonoBehaviour
     /// </summary>
     private void FixedUpdate()
     {
+        if (Runing)
+        {
+            characterRigi.GetComponent<Rigidbody2D>().velocity = new Vector2(speed, characterRigi.GetComponent<Rigidbody2D>().velocity.y);
+        }
+        animator.SetFloat("VelocidadX", characterRigi.GetComponent<Rigidbody2D>().velocity.x);
         inGrounded = Physics2D.OverlapCircle(checkGround.position, checkRatio, maskGround);
         animator.SetBool("isGrounded", inGrounded);
         if (inGrounded)
@@ -51,18 +58,28 @@ public class ManagerCharacter : MonoBehaviour
     /// </summary>
     private void Update()
     {
-        // if get button mouse 0 or touch (SmartPhone), character run
-        if ((inGrounded || !doubleJump) && Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0))
         {
-            // Apply velocity
-            characterRigi.GetComponent<Rigidbody2D>().velocity = new Vector2(characterRigi.GetComponent<Rigidbody2D>().velocity.x, forceJump);
-            // Add force in X for run
-            characterRigi.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, forceJump));
-
-            // Double Jump
-            if (!doubleJump && !inGrounded)
+            if (Runing)
             {
-                doubleJump = true;
+                // if get button mouse 0 or touch (SmartPhone), character junp
+                if (inGrounded || !doubleJump)
+                {
+                    // Apply velocity
+                    characterRigi.GetComponent<Rigidbody2D>().velocity = new Vector2(characterRigi.GetComponent<Rigidbody2D>().velocity.x, forceJump);
+                    // Add force in X for run
+                    characterRigi.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, forceJump));
+
+                    // Double Jump
+                    if (!doubleJump && !inGrounded)
+                    {
+                        doubleJump = true;
+                    }
+                }
+            }
+            else
+            {
+                Runing = true;
             }
         }
     }
