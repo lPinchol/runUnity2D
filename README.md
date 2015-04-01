@@ -22,6 +22,13 @@ Este videojuego esta echo para Unity 5.0.0f4 y no se ha probado en versiones ant
 
 ## Licencias
 
+> TODO
+>
+> - La animacion no esta ajustada al tiempo. [FIX]
+> - Errores en physics2D menores. [FIX]
+
+## Licencias
+
 1. [2D Character](https://www.assetstore.unity3d.com/en/#!/content/17020)
 2. [2D Enviroment](https://www.assetstore.unity3d.com/en/#!/content/24090)
 3. [2D Items](https://www.assetstore.unity3d.com/en/#!/content/24626)
