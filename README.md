@@ -26,6 +26,7 @@ Este videojuego esta echo para Unity 5.0.0f4 y no se ha probado en versiones ant
 >
 > - La animacion no esta ajustada al tiempo. [FIX]
 > - Errores en physics2D menores. [FIX]
+> - Ajustar la salida de obstaculos
 
 ## Licencias
 
