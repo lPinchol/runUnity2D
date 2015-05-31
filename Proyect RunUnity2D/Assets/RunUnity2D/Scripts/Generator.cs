@@ -1,4 +1,9 @@
-﻿using UnityEngine;
+﻿/*******************************************************
+    Autor: Antonio Mateo [ lPinchol ]
+    Date:  31-05-2015
+********************************************************/
+
+using UnityEngine;
 using System.Collections;
 
 
