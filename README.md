@@ -13,6 +13,10 @@ Un pequeño juego usando las heramientas 2D de Unity en la version 5.0.0
 
 Este videojuego esta echo para Unity 5.0.0f4 y no se ha probado en versiones anteriores.
 
+##Aviso
+
+Las nuevas versiones de Unity3D y el proyecto runUnity2D pueden tener errores por el cambio, si lo tienen avisame.Gracias.
+
 ## Caracteristicas en [V. 1.0.0]
 
 > Actuales
