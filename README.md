@@ -11,7 +11,7 @@ Un pequeño juego usando las heramientas 2D de Unity en la version 5.0.0
 
 ##Sinopsis
 
-Este videojuego esta echo para Unity 5.0.0f4 y no se ha probado en versiones anteriores.
+Este videojuego esta echo para Unity 5.0.0f4 - 5.1.2f1 y no se ha probado en versiones anteriores.
 
 ##Aviso
 
